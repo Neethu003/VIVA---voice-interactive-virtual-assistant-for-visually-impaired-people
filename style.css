@@ -1,0 +1,12 @@
+body { margin: 0; font-family: 'Roboto', sans-serif; background-color: #121212; color: #fff; display: flex; flex-direction: column; height: 100vh; }
+header { background-color: #1E1E1E; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; font-size: 1.2rem; }
+main { display: flex; flex:1; }
+#video-container { flex: 2; display: flex; justify-content: center; align-items: center; background-color: #222; }
+#video-feed { width: 100%; height: auto; border-radius: 10px; }
+#object-panel { flex:1; background-color: #1E1E1E; padding: 10px; overflow-y:auto; }
+.object-item { padding:5px; margin-bottom:5px; background-color:#2A2A2A; border-radius:5px; display:flex; justify-content:space-between; align-items:center; }
+.object-item.near { background-color:#FFA500; }
+.object-item.close { background-color:#FF5555; }
+#alert-indicator { display:inline-block; width:20px; height:20px; border-radius:50%; background-color:green; margin-left:5px; }
+button, select { background-color:#333; color:#fff; border:none; padding:8px 12px; border-radius:5px; cursor:pointer; margin-left:5px; }
+button:hover, select:hover { background-color:#555; }
